@@ -97,5 +97,5 @@ sudo pmset -a halfdim 0
 sudo pmset -a womp 0      
 sudo pmset -a acwake 0
 sudo pmset -a networkoversleep 0```
-- **Note:** If you want to use hibernation (know more using `man peset` command in the terminal), use `sudo peseta -a hibernatemode 3`. 
-If you are okay with slower sleeps, slower wakes but want improved battery life, use `sudo -a hibernatemode 25`
+- **Note:** If you want to use hibernation (know more using `man pmset` command in the terminal), use `sudo pmset -a hibernatemode 3`. 
+If you are okay with slower sleeps, slower wakes but want improved battery life, use `sudo pmset -a hibernatemode 25`
